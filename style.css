@@ -1,0 +1,97 @@
+
+*{
+	box-sizing: border-box;
+	font-family: sans-serif;
+	margin: 0;
+
+}
+.main{	
+	/*padding: 1em;*/
+	/*width: 80%;
+	margin: auto;*/
+}
+.table{
+	text-align: center;
+	/*margin-left: 3em;*/
+	/*border-collapse: collapse;*/
+}
+.table>div{
+	/* padding-left: 1em;*/
+	display: inline-block;	
+}
+
+.table>div>div{
+	/*text-align: center;*/
+	border-radius: 7px;
+	display: inline-block;
+	border: 1px solid pink;
+	/*padding: 3px;*/
+}
+.table>div>div>div{
+	text-align: center;
+	padding: 7px;
+}
+hr{
+	width: 100%;
+
+}
+header{
+	font-weight: 800;
+	width: 100%;
+	padding: 2em;
+	top: 0;
+	font-size: 2em;
+	text-align: center;
+	border-bottom: 1px solid lightgray;
+	/*margin-bottom: 0.5em;*/
+	background-color:#cac2d4;
+
+}
+.footer{
+	text-align: center;
+	font-size: 2em;
+}
+
+.img{
+	width: 7em;
+}
+image{
+	width: 4empx;
+}
+
+.secCarrito{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.carrito{
+	display: table;
+}
+.carrito>div:nth-child(even){
+	background-color: lightgray}
+
+.carrito>div{
+	display: table-row;
+}
+
+.carrito>div>div{
+	text-align: center;
+	display: table-cell;
+	padding: 0.3em;
+	padding-left: 0.5em;
+	/*border-radius: 2px;*/
+}
+.carrito>div>div>div{
+
+	padding: 7px;
+	display: inline-grid;
+	/*border: 1px solid pink;*/
+}
+.expira{
+	text-align:right;
+	top: 0;
+	margin: 0;
+	padding-right: 2em;
+	margin-bottom: 2em;
+
+}
